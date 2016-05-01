@@ -1,7 +1,8 @@
 var gulp = require('gulp');
 var sass = require('gulp-sass');
+var serve = require('gulp-serve');
 
-gulp.task('default', ['scss:watch']);
+gulp.task('default', ['scss:watch', 'serve']);
 
 gulp.task('scss', function () {
   return gulp.src('./assets/scss/**/*.scss')
@@ -12,3 +13,5 @@ gulp.task('scss', function () {
 gulp.task('scss:watch', function () {
   gulp.watch('./assets/scss/**/*.scss', ['scss']);
 });
+
+gulp.task('serve', serve('./'));
