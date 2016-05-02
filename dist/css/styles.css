@@ -865,7 +865,8 @@ a:link, .list-item {
   font-family: 'Inconsolata';
   color: black; }
 
-.photodiary {
+.photodiary,
+.comment {
   font-family: 'Ubuntu', sans-serif;
   color: #D9D6CD; }
 
