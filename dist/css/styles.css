@@ -857,3 +857,7 @@
 
 body {
   background: #efefef; }
+
+.logo {
+  font-family: 'Inconsolata';
+  text-decoration: none; }
