@@ -4,7 +4,11 @@ body {
   background:#efefef;
 }
 
+a:link, .list-item {
+  color: #626262;
+}
+
 .logo {
   font-family: 'Inconsolata';
-  
+  color: black;
 }
