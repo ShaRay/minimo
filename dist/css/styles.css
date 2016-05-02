@@ -864,3 +864,11 @@ a:link, .list-item {
 .logo {
   font-family: 'Inconsolata';
   color: black; }
+
+.photodiary {
+  font-family: 'Ubuntu', sans-serif;
+  color: #D9D6CD; }
+
+.photodiary-caption-header, .photodiary-caption {
+  color: #626262;
+  font-family: 'Playfair Display', serif; }
