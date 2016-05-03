@@ -904,6 +904,28 @@
   box-shadow: 0 0 0 2px color(var(--field-error-color) a(0.5)); }
 
 body {
+  color: var(--body-color);
+  background-color: var(--body-background-color); }
+
+a {
+  color: var(--link-color);
+  text-decoration: var(--link-text-decoration); }
+
+a:hover {
+  text-decoration: var(--link-hover-text-decoration); }
+
+pre, code {
+  background-color: var(--pre-background-color);
+  border-radius: var(--pre-border-radius); }
+
+hr {
+  border: 0;
+  width: 25rem;
+  color: black;
+  background-color: black;
+  height: 2px; }
+
+body {
   background: #ffffff;
   font-family: 'Playfair Display', serif; }
 
@@ -929,4 +951,4 @@ body {
   font-family: 'Ubuntu', sans-serif; }
 
 .ht {
-  max-height: 17.8125rem; }
+  height: 17.8125rem; }

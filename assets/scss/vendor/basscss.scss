@@ -408,6 +408,9 @@
   }
 
 }
+
+//* Flex
+
 .flex{ display:-webkit-box; display:-webkit-flex; display:-ms-flexbox; display:flex }
 
 @media (min-width: 40em){
@@ -542,6 +545,8 @@
 
 .display-none{ display:none !important }
 
+//* Field - Form
+
 .field {
   border-style: solid;
   border-width: var(--border-width);
@@ -596,6 +601,35 @@
 .field.is-error:focus,
 .field.is-error.is-focused {
   box-shadow: 0 0 0 2px color(var(--field-error-color) a(.5));
+}
+
+//*  Color
+
+body {
+  color: var(--body-color);
+  background-color: var(--body-background-color);
+}
+
+a {
+  color: var(--link-color);
+  text-decoration: var(--link-text-decoration);
+}
+
+a:hover {
+  text-decoration: var(--link-hover-text-decoration);
+}
+
+pre, code {
+  background-color: var(--pre-background-color);
+  border-radius: var(--pre-border-radius);
+}
+
+hr {
+  border: 0;
+  width: 25rem;
+  color: black;
+  background-color: black;
+  height: 2px;
 }
 
 
