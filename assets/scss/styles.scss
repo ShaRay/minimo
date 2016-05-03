@@ -2,26 +2,37 @@
 
 body {
   background:#ffffff;
-}
-
-a:link, .list-item {
-  color: #626262;
-}
-
-.logo {
-  font-family: 'Inconsolata';
-  color: black;
-}
-
-.photodiary,
-.comment,
-.post-caption-header {
-  font-family: 'Ubuntu', sans-serif;
-  color: #D9D6CD;
-}
-
-.photodiary-caption-header, .photodiary-caption {
-  color: #626262;
   font-family: 'Playfair Display', serif;
 }
 
+.c-storm-dust {
+  color: #626262;
+}
+
+.c-white-pointer {
+  color: #D9D6CD;
+}
+
+.c-black {
+  color: black;
+}
+
+.bc-gallery {
+  color: #F0F0F0;
+}
+
+.c-mine-shaft {
+  color: #333333;
+}
+
+.ff-inconsolate {
+  font-family: 'Inconsolata';
+}
+
+.ff-ubuntu {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.ht {
+  max-height: 17.8125rem;
+}

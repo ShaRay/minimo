@@ -136,6 +136,9 @@
 .max-width-3 {
   max-width: 48rem; }
 
+.max-width-3-5 {
+  max-width: 56.25rem; }
+
 .max-width-4 {
   max-width: 64rem; }
 
@@ -856,21 +859,29 @@
   display: none !important; }
 
 body {
-  background: #ffffff; }
+  background: #ffffff;
+  font-family: 'Playfair Display', serif; }
 
-a:link, .list-item {
+.c-storm-dust {
   color: #626262; }
 
-.logo {
-  font-family: 'Inconsolata';
-  color: black; }
-
-.photodiary,
-.comment,
-.post-caption-header {
-  font-family: 'Ubuntu', sans-serif;
+.c-white-pointer {
   color: #D9D6CD; }
 
-.photodiary-caption-header, .photodiary-caption {
-  color: #626262;
-  font-family: 'Playfair Display', serif; }
+.c-black {
+  color: black; }
+
+.bc-gallery {
+  color: #F0F0F0; }
+
+.c-mine-shaft {
+  color: #333333; }
+
+.ff-inconsolate {
+  font-family: 'Inconsolata'; }
+
+.ff-ubuntu {
+  font-family: 'Ubuntu', sans-serif; }
+
+.ht {
+  max-height: 17.8125rem; }
