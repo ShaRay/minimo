@@ -858,50 +858,48 @@
 .display-none {
   display: none !important; }
 
-.field {
-  border-style: solid;
-  border-width: var(--border-width);
-  border-color: var(--border-color);
-  border-radius: var(--border-radius); }
+input,
+select,
+textarea,
+fieldset {
+  font-family: var(--form-field-font-family);
+  font-size: var(--form-field-font-size);
+  box-sizing: border-box;
+  margin-top: 0;
+  margin-bottom: 0; }
 
-.field:focus,
-.field.is-focused {
-  outline: none;
-  border-color: var(--field-focus-color);
-  box-shadow: 0 0 0 2px color(var(--field-focus-color) a(0.5)); }
+label {
+  vertical-align: middle; }
 
-.field:disabled,
-.field.is-disabled {
-  background-color: var(--darken-2);
-  opacity: .5; }
+input[type=text],
+input[type=date],
+input[type=datetime],
+input[type=datetime-local],
+input[type=email],
+input[type=month],
+input[type=number],
+input[type=password],
+input[type=search],
+input[type=tel],
+input[type=time],
+input[type=url],
+input[type=week] {
+  height: var(--form-field-height);
+  padding: var(--form-field-padding-y) var(--form-field-padding-x);
+  vertical-align: middle;
+  -webkit-appearance: none; }
 
-.field:read-only:not(select),
-.field.is-read-only {
-  background-color: var(--darken-2); }
+select {
+  line-height: 1.75;
+  padding: var(--form-field-padding-y) var(--form-field-padding-x); }
 
-.field.is-success {
-  border-color: var(--field-success-color); }
+select:not([multiple]) {
+  height: var(--form-field-height);
+  vertical-align: middle; }
 
-.field.is-success:focus,
-.field.is-success.is-focused {
-  box-shadow: 0 0 0 2px color(var(--field-success-color) a(0.5)); }
-
-.field.is-warning {
-  border-color: var(--field-warning-color); }
-
-.field.is-warning:focus,
-.field.is-warning.is-focused {
-  box-shadow: 0 0 0 2px color(var(--field-warning-color) a(0.5)); }
-
-.field:invalid,
-.field.is-error {
-  border-color: var(--field-error-color); }
-
-.field:invalid:focus,
-.field:invalid.is-focused,
-.field.is-error:focus,
-.field.is-error.is-focused {
-  box-shadow: 0 0 0 2px color(var(--field-error-color) a(0.5)); }
+textarea {
+  line-height: 1.75;
+  padding: var(--form-field-padding-y) var(--form-field-padding-x); }
 
 body {
   color: var(--body-color);

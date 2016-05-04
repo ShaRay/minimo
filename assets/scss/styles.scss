@@ -25,6 +25,10 @@ body {
   color: #333333;
 }
 
+.c-scarpa-flow {
+  color: #6B6B6B;
+}
+
 .ff-inconsolate {
   font-family: 'Inconsolata';
 }
@@ -33,7 +37,7 @@ body {
   font-family: 'Ubuntu', sans-serif;
 }
 
-.ht {
+.ht { // height for newsletter form
   height: 17.8125rem;
 }
 
@@ -43,13 +47,4 @@ hr {
   color: black;
   background-color: black;
   height: 2px;
-}
-
-#newsletter {
-  background-color: #F0F0F0;
-  height: 400px;
-}
-
-input[type="text"] {
-  margin-top: 50px;
 }
