@@ -917,10 +917,3 @@ a:hover {
 pre, code {
   background-color: var(--pre-background-color);
   border-radius: var(--pre-border-radius); }
-
-hr {
-  border: 0;
-  width: 25rem;
-  color: black;
-  background-color: black;
-  height: 2px; }

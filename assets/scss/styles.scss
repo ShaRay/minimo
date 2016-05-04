@@ -18,7 +18,7 @@ body {
 }
 
 .bc-gallery {
-  color: #F0F0F0;
+  background-color: #F0F0F0;
 }
 
 .c-mine-shaft {
@@ -35,4 +35,21 @@ body {
 
 .ht {
   height: 17.8125rem;
+}
+
+hr {
+  border: 0;
+  width: 25rem;
+  color: black;
+  background-color: black;
+  height: 2px;
+}
+
+#newsletter {
+  background-color: #F0F0F0;
+  height: 400px;
+}
+
+input[type="text"] {
+  margin-top: 50px;
 }

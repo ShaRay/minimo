@@ -918,13 +918,6 @@ pre, code {
   background-color: var(--pre-background-color);
   border-radius: var(--pre-border-radius); }
 
-hr {
-  border: 0;
-  width: 25rem;
-  color: black;
-  background-color: black;
-  height: 2px; }
-
 body {
   background: #ffffff;
   font-family: 'Playfair Display', serif; }
@@ -939,7 +932,7 @@ body {
   color: black; }
 
 .bc-gallery {
-  color: #F0F0F0; }
+  background-color: #F0F0F0; }
 
 .c-mine-shaft {
   color: #333333; }
@@ -952,3 +945,17 @@ body {
 
 .ht {
   height: 17.8125rem; }
+
+hr {
+  border: 0;
+  width: 25rem;
+  color: black;
+  background-color: black;
+  height: 2px; }
+
+#newsletter {
+  background-color: #F0F0F0;
+  height: 400px; }
+
+input[type="text"] {
+  margin-top: 50px; }
