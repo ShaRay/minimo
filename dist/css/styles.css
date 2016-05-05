@@ -988,8 +988,11 @@ c-dove-gray {
 
 .btn-border {
   border: 1px solid black;
-  padding: 30px 82px;
-  margin-top: 170px; }
+  padding: 1.875rem 5.125rem;
+  margin-top: 10.625rem; }
 
 .f-ht {
-  height: 100px; }
+  height: 6.25rem; }
+
+.f-width {
+  width: 100%; }
