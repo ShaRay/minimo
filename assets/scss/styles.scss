@@ -29,6 +29,10 @@ body {
   color: #6B6B6B;
 }
 
+c-dove-gray {
+  color: #6C6C6C;
+}
+
 .ff-inconsolate {
   font-family: 'Inconsolata';
 }
@@ -41,10 +45,21 @@ body {
   height: 17.8125rem;
 }
 
-hr {
-  border: 0;
-  width: 25rem;
-  color: black;
-  background-color: black;
-  height: 2px;
+.b-bottom {
+  border-top: 0;
+  border-left: 0;
+  border-bottom: 1px solid black; 
 }
+
+.btn-border {
+  border: 1px solid black;
+  padding: 30px 82px;
+  margin-top: 170px;
+}
+
+.f-ht {
+  height: 100px;
+}
+
+
+
